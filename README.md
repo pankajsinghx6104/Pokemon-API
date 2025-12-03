@@ -1,16 +1,75 @@
-# React + Vite
+<h1 align="center">🐾 Pokémon API – React Pokédex</h1>
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+<p align="center">A fully responsive Pokémon Explorer built with React & PokeAPI. Search, explore, and view detailed stats for 500 Pokémon in a clean and modern UI.</p>
 
-Currently, two official plugins are available:
+<p align="center">
+  <img src="https://img.shields.io/badge/React-18-blue" />
+  <img src="https://img.shields.io/badge/Vite-Frontend-purple" />
+  <img src="https://img.shields.io/badge/PokeAPI-REST-orange" />
+  <img src="https://img.shields.io/badge/Responsive-Yes-brightgreen" />
+  <img src="https://img.shields.io/badge/License-MIT-green" />
+</p>
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## React Compiler
+## 🚀 Live Demo  
+👉 **[Click Here to View the Website](YOUR_DEPLOY_LINK_HERE)**  
+*(Add your Netlify/Vercel link here after deployment)*
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+---
 
-## Expanding the ESLint configuration
+## 📌 Features
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+### 🔍 Search & Filter  
+- Real-time Pokémon search  
+- Instant filtering by name  
+
+### 📦 Data & Stats (from PokeAPI)  
+Shows for each Pokémon:
+- Name  
+- Image (Dream World artwork)  
+- Types  
+- Height  
+- Weight  
+- Speed  
+- Base experience  
+- Abilities  
+
+### 🎨 UI / UX  
+- Clean card UI with blob background  
+- Type highlight badges  
+- Grid layout  
+- Fully responsive on:
+  - Laptops  
+  - Tablets  
+  - Phones  
+
+### ⚙️ Functionality  
+- Fetches 500 Pokémon using async/await  
+- Loading state  
+- Error handling  
+- Search functionality  
+- Component-based architecture  
+- React Hooks (`useState`, `useEffect`)  
+
+---
+
+## 🛠 Tech Stack
+
+- **React + Vite**
+- **CSS (custom responsive design)**
+- **JavaScript (ES6+)**
+- **PokeAPI**
+- **Git + GitHub**
+
+---
+
+## 📂 Project Structure
+
+src/
+│── App.jsx
+│── App.css
+│── index.css
+│── Pokemon.jsx
+│── PokemonCards.jsx
+└── main.jsx
