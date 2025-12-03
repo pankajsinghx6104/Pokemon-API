@@ -3,7 +3,7 @@
 <p align="center">A fully responsive Pokémon Explorer built with React & PokeAPI. Search, explore, and view detailed stats for 500 Pokémon in a clean and modern UI.</p>
 
 <p align="center">
-  <img src="https://img.shields.io/badge/React-18-blue" />
+  <img src="https://img.shields.io/badge/React-19-blue" />
   <img src="https://img.shields.io/badge/Vite-Frontend-purple" />
   <img src="https://img.shields.io/badge/PokeAPI-REST-orange" />
   <img src="https://img.shields.io/badge/Responsive-Yes-brightgreen" />
